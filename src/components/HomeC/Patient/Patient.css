@@ -1,0 +1,231 @@
+.login-container {
+    max-width: 400px;
+    margin: 50px auto; /* Add margin for space above and below */
+    padding: 20px;
+    background: #c9e2b3;
+    
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center; /* Center align the content */
+}
+
+.login-container h2 {
+    color: #218838; /* Dark green color */
+    text-decoration: underline; /* Underline style */
+    margin-bottom: 20px; /* Add space below the text */
+}
+
+  .input-container {
+    margin-bottom: 15px;
+    
+  }
+  
+  .input-container label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold; /* Make the labels bold */
+        text-align: left; /* Align labels to the left */
+      
+  }
+  
+  .input-container input {
+    width: 95%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    align-items: center;
+  }
+  
+  .forgot-password {
+    margin-bottom: 15px;
+  }
+  
+  .forgot-password-link {
+    color:crimson;
+    text-decoration: underline;
+  }
+  
+  .forgot-password-link:hover {
+    color: #0056b3;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .login-button,
+  .register-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-button {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .login-button:hover {
+    background-color: #218838;
+  }
+  
+  .register-button {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .register-button:hover {
+    background-color: #218838;
+  }
+
+  .forgot-password-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .input-container {
+    margin-bottom: 15px;
+  }
+  
+  .input-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .input-container input {
+    width: 95%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .reset-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .reset-button:hover {
+    background-color: #218838;
+  }
+  
+  .back-to-login {
+    margin-top: 15px;
+  }
+  
+  .back-to-login a {
+    color:crimson;
+    text-decoration: none;
+  }
+  
+  .back-to-login a:hover {
+    color: #0056b3;
+  }
+  
+  /* Register.css */
+
+.register-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #c9e2b3;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.register-container h2 {
+  color: #218838; /* Dark green color */
+  text-decoration: underline; /* Underline style */
+  margin-bottom: 20px; /* Add space below the text */
+}
+
+.input-container {
+  margin-bottom: 15px;
+}
+
+.input-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold; /* Make the labels bold */
+  text-align: left; /* Align labels to the left */
+}
+
+.input-container input,
+.input-container select {
+  width: 95%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.generate-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.generate-button:hover {
+  background-color: #0056b3;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.register-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.register-button:hover {
+  background-color: #218838;
+}
+
+.login-link {
+  margin-top: 20px;
+}
+
+.login-link a {
+  color: crimson;
+  text-decoration: underline;
+}
+
+.login-link a:hover {
+  color: #0056b3;
+}

@@ -1,0 +1,42 @@
+.body-about {
+    font-family: 'Helvetica Neue, Arial, sans-serif';
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #c9e2b3;
+    background-image: url('meds.jpeg'); /* Add your background image path here */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+  }
+  
+  .container-about {
+    max-width: 800px;
+    padding: 0 20px;
+  }
+  
+  .box-about {
+    background-color: rgba(333, 333, 333, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    animation: glow 1.5s infinite alternate;
+    background-size: cover;
+    background-position: center left;
+    background-repeat: no-repeat;
+  }
+  
+  .heading-about {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #006400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  

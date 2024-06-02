@@ -1,0 +1,48 @@
+/* Contact.css */
+
+.body-contact {
+    font-family: 'Helvetica Neue, Arial, sans-serif';
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #c9e2b3;
+    background-image: url('meds.jpeg'); /* Add your background image path here */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+    padding-top: 60px; /* Add padding for space at the top */
+    padding-bottom: 60px; /* Add padding for space at the bottom */
+  }
+  
+  .container-contact {
+    width:50%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+  }
+  
+  .heading-contact {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #006400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .contactInfo-contact {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .subHeading-contact {
+    margin-top: 0;
+  }
+  
